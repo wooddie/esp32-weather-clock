@@ -2,7 +2,7 @@
 #include <TinyGPS++.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
-#include "secrets.h"//
+#include "secrets.h"
 
 #define LED 2 // Лед индикатор на ESP32
 
