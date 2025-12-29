@@ -19,11 +19,6 @@ bool weatherRequested = false;
 unsigned long lastRequestTime = 0;
 const unsigned long requestInterval = 3600000; // 1 час = 3600 * 1000 мс
 
-// const char *ssid = "DIR-615-B64B";
-// const char *password = "91451989";
-// const char *ssid2 = "";
-// const char *password2 = "";
-
 unsigned long lastSendTime = 0;          // Время последней отправки
 const unsigned long sendInterval = 3000; // Интервал в миллисекундах (3 секунд)
 
